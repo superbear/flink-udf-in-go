@@ -29,7 +29,7 @@ services:
     depends_on:
       - jobmanager
     volumes:
-      - ./target/flink-udf-in-go-1.0-SNAPSHOT-jar-with-dependencies.jar:/opt/flink/lib/flink-udf-in-go-1.0-SNAPSHOT-jar-with-dependencies.jar
+      - ./target/flink-udf-in-go-1.0-SNAPSHOT.jar:/opt/flink/lib/flink-udf-in-go-1.0-SNAPSHOT.jar
     environment:
       # jna debug log
       #- JAVA_TOOL_OPTIONS="-Djna.debug_load=true -Djna.debug_load.jna=true"

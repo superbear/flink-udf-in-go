@@ -7,9 +7,9 @@
 ## How to build
 ### Build
 ```bash
-mvn clean package assembly:single
+mvn clean package
 ```
-This creates a `flink-udf-in-go-1.0-SNAPSHOT-jar-with-dependencies.jar` in the `target/` directory.
+This creates a `flink-udf-in-go-1.0-SNAPSHOT.jar` in the `target/` directory.
 
 ### Test
 ```bash
