@@ -37,5 +37,5 @@ Flink SQL> exit;
 ```
 
 ## References
-[Flink User-defined Functions](https://nightlies.apache.org/flink/flink-docs-master/docs/dev/table/functions/udfs/)
-[Flink Docker Setup](https://nightlies.apache.org/flink/flink-docs-master/docs/deployment/resource-providers/standalone/docker/)
+- [Flink User-defined Functions](https://nightlies.apache.org/flink/flink-docs-master/docs/dev/table/functions/udfs/)
+- [Flink Docker Setup](https://nightlies.apache.org/flink/flink-docs-master/docs/deployment/resource-providers/standalone/docker/)
