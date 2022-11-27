@@ -5,6 +5,11 @@
 - https://github.com/superbear/java-call-go
 
 ## How to build
+### Install dependencies
+USERNAME={{your github username}} ACCESS_TOKEN={{github personal access token}} mvn -s .m2/settings.xml clean install
+
+[Working with the GitHub Apache Maven registry](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-apache-maven-registry#authenticating-with-a-personal-access-token)
+
 ### Build
 ```bash
 mvn clean package
